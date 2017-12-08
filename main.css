@@ -1,0 +1,31 @@
+.productmain{
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+}
+
+.customerreviews {
+  height: 120px;
+  width: 100%;
+  border: 3px solid black;
+  overflow: auto;
+  padding: 10px;
+}
+
+.product{
+  padding-bottom: 100px;
+  height: 350px;
+  width: 370px;
+}
+
+.button{
+  height: 3em;f
+}
+
+.reviews{
+}
+
+.all-reviews{
+  list-style: none;
+  color: inherit;
+
+}
