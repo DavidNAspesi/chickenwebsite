@@ -1,10 +1,9 @@
-body {
-    margin: 0px;
-    background-color: #C4A473;
+body{
+  margin:0;
+  font-family: sans-serif;
 }
 
-
-header {
+header{
     border-style: solid;
     border-width: 3px;
     display: flex;
@@ -17,18 +16,9 @@ header {
     left: 0px;
 }
 
-footer{ 
-    border-style: solid;
-    border-width: 3px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #8C1C23;
-    position: absolute; 
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+.magnifying{
+    height: 50px;
+    width: 50px;
 }
 
 .magnifying {
@@ -80,15 +70,21 @@ footer{
 
 .productmain{
   display: grid;
-  grid-template-columns: 30% 40% 30%;
+  grid-template-columns: 30% 30% 30%;
 }
 
-.customerreviews {
+.price{
+  font-size: 40px;
+  font-style: italic;
+}
+
+.customerreviews{
   height: 120px;
   width: 100%;
   border: 3px solid black;
   overflow: auto;
-  padding: 10px;
+  padding: 5px;
+  background-color: rgb(136, 150, 106);
 }
 
 .product{
@@ -107,10 +103,37 @@ footer{
 .all-reviews{
   list-style: none;
   color: inherit;
+  font-size: 20px;
+  font-style: italic;
+}
 
+.stars1{
+  height:20px;
+  width:100px;
+}
+
+<<<<<<< HEAD
 }
 
 .subphoto {
     height: 200px;
     width: 200px;
 }
+.stars5{
+  height:30px;
+  width:110px;
+}
+
+footer{
+    border-style: solid;
+    border-width: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8C1C23 ;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+} 
